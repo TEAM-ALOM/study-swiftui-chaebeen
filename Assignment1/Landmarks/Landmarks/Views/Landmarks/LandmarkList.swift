@@ -8,10 +8,11 @@
 import SwiftUI
 
 struct LandmarkList: View {
+    @EnvironmentObject var modelData: ModelData
     @State private var showFavoritesOnly = false
     
     var filteredLandmarks: [Landmark]{ // 랜드마크 구조체 배열 타입
-        landmarks.filter {landmark in //filter는 내부 값을 걸러서 추출하는 역할
+        modelData.landmarks.filter {landmark in //filter는 내부 값을 걸러서 추출하는 역할
             (!showFavoritesOnly || landmark.isFavorite)
         }
     }
@@ -44,9 +45,14 @@ struct LandmarkList: View {
 struct LandmarkList_Previews: PreviewProvider {
     static var previews: some View {
         LandmarkList()
+            .environmentObject(ModelData())
     }
 }
 
 // @State (상태프로퍼티) -> 뷰 내부에서 특정 View 의 상태를 나타내는 변수
 // 상태를 변경할 때마다 body속성이 재설정 된다. 뷰 자체가 다시 렌더링 되는 것! 따라서 State를 변경 할 때마다 항상 새로운 View에서 렌더링 된다.
 // 뷰내부에서 밖에 사용이 불가능함 때문에 private로 선언
+
+//@State : 값이 변경되는 것을 화면에 보여줘야 할 때
+//@Binding : State 같은 녀석들을 화면간에 공유해야 할 때
+//@EnvironmentObject : 하위뷰에 모두 공유해야 할 때 -> @Published, observableObject

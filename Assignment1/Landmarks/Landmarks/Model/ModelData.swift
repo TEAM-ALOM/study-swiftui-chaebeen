@@ -10,6 +10,13 @@ import Combine
 
 final class ModelData: ObservableObject {
     @Published var landmarks: [Landmark] = load("landmarkData.json")   // landmarks 배열 선언
+    
+    var Categories :[String: [Landmark]]{
+        Dictionary(
+            grouping: landmarks,
+            by: {$0.category.rawValue}
+        )
+    }
 }
 
 // load 함수 정의 -> jason 파일 로드 해서 data를 struct로 파싱(decode).

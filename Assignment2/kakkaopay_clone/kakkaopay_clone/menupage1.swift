@@ -9,7 +9,28 @@ import SwiftUI
 
 struct menupage1: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        
+        VStack{
+            HStack{
+                RoundedRectangle(cornerRadius: 20)
+                    .fill(.yellow)
+                    .frame(width: 220, height: 300)
+                VStack{
+                    RoundedRectangle(cornerRadius: 20)
+                        .fill(.gray)
+                        .frame(width:110, height: 150)
+                    RoundedRectangle(cornerRadius: 20)
+                        .fill(.gray)
+                        .frame(width:110, height: 150)
+
+                }
+            }
+            RoundedRectangle(cornerRadius: 20)
+                .fill(.gray)
+                .frame(width: 350, height: 150)
+
+        }
+        .padding()
     }
 }
 

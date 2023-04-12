@@ -10,27 +10,17 @@ import SwiftUI
 struct menupage1: View {
     var body: some View {
         
-        VStack{
-            HStack{
-                RoundedRectangle(cornerRadius: 20)
-                    .fill(.yellow)
-                    .frame(width: 220, height: 300)
-                VStack{
-                    RoundedRectangle(cornerRadius: 20)
-                        .fill(.gray)
-                        .frame(width:110, height: 150)
-                    RoundedRectangle(cornerRadius: 20)
-                        .fill(.gray)
-                        .frame(width:110, height: 150)
-
+        VStack(spacing: 5){
+            HStack(spacing: 5){
+                button_2_2()
+                VStack(spacing: 5){
+                    button_1_1(title: "카카오뱅크", subtitle: "5977", image: Image(systemName: "b.square"))
+                    button_1_1(title: "카카오뱅...", subtitle: "결제", image: Image(systemName: "creditcard"))
                 }
             }
-            RoundedRectangle(cornerRadius: 20)
-                .fill(.gray)
-                .frame(width: 350, height: 150)
-
+            button_3_1()
         }
-        .padding()
+        .fixedSize(horizontal: false, vertical: false)
     }
 }
 

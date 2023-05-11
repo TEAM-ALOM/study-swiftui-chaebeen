@@ -7,12 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E63A20D529E1F89500E8658D /* button_2_2.swift in Sources */ = {isa = PBXBuildFile; fileRef = E63A20D429E1F89500E8658D /* button_2_2.swift */; };
+		E63A20D729E493CC00E8658D /* button_1_1.swift in Sources */ = {isa = PBXBuildFile; fileRef = E63A20D629E493CC00E8658D /* button_1_1.swift */; };
+		E63A20D929E4973000E8658D /* button_3_1.swift in Sources */ = {isa = PBXBuildFile; fileRef = E63A20D829E4973000E8658D /* button_3_1.swift */; };
+		E63A20DB29E516C800E8658D /* menupage2.swift in Sources */ = {isa = PBXBuildFile; fileRef = E63A20DA29E516C800E8658D /* menupage2.swift */; };
+		E63A20DD29E6D8B000E8658D /* button_3_1_yellow.swift in Sources */ = {isa = PBXBuildFile; fileRef = E63A20DC29E6D8B000E8658D /* button_3_1_yellow.swift */; };
+		E63A20DF29E6DF8600E8658D /* add_button_1_1.swift in Sources */ = {isa = PBXBuildFile; fileRef = E63A20DE29E6DF8600E8658D /* add_button_1_1.swift */; };
+		E63A20E129E6E5AE00E8658D /* menupage3.swift in Sources */ = {isa = PBXBuildFile; fileRef = E63A20E029E6E5AE00E8658D /* menupage3.swift */; };
 		E6A87DC329DA967700910E73 /* kakkaopay_cloneApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6A87DC229DA967700910E73 /* kakkaopay_cloneApp.swift */; };
 		E6A87DC529DA967700910E73 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6A87DC429DA967700910E73 /* ContentView.swift */; };
 		E6A87DC729DA967900910E73 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E6A87DC629DA967900910E73 /* Assets.xcassets */; };
 		E6A87DCA29DA967900910E73 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E6A87DC929DA967900910E73 /* Preview Assets.xcassets */; };
-		E6A87DEF29DA971200910E73 /* menupage.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6A87DEE29DA971200910E73 /* menupage.swift */; };
 		E6A87DF129DA9E5D00910E73 /* menupage1.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6A87DF029DA9E5D00910E73 /* menupage1.swift */; };
+		E6E221DE29FA41D000636CBE /* pagingmenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6E221DD29FA41D000636CBE /* pagingmenu.swift */; };
+		E6E221E02A0CBD1800636CBE /* NavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6E221DF2A0CBD1800636CBE /* NavigationBar.swift */; };
+		E6E221E22A0CD58900636CBE /* CustomTabs.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6E221E12A0CD58900636CBE /* CustomTabs.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,6 +42,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E63A20D429E1F89500E8658D /* button_2_2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = button_2_2.swift; sourceTree = "<group>"; };
+		E63A20D629E493CC00E8658D /* button_1_1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = button_1_1.swift; sourceTree = "<group>"; };
+		E63A20D829E4973000E8658D /* button_3_1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = button_3_1.swift; sourceTree = "<group>"; };
+		E63A20DA29E516C800E8658D /* menupage2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = menupage2.swift; sourceTree = "<group>"; };
+		E63A20DC29E6D8B000E8658D /* button_3_1_yellow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = button_3_1_yellow.swift; sourceTree = "<group>"; };
+		E63A20DE29E6DF8600E8658D /* add_button_1_1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = add_button_1_1.swift; sourceTree = "<group>"; };
+		E63A20E029E6E5AE00E8658D /* menupage3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = menupage3.swift; sourceTree = "<group>"; };
 		E6A87DBF29DA967700910E73 /* kakkaopay_clone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = kakkaopay_clone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E6A87DC229DA967700910E73 /* kakkaopay_cloneApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kakkaopay_cloneApp.swift; sourceTree = "<group>"; };
 		E6A87DC429DA967700910E73 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -40,8 +56,10 @@
 		E6A87DC929DA967900910E73 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		E6A87DCF29DA967900910E73 /* kakkaopay_cloneTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = kakkaopay_cloneTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E6A87DD929DA967900910E73 /* kakkaopay_cloneUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = kakkaopay_cloneUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		E6A87DEE29DA971200910E73 /* menupage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = menupage.swift; sourceTree = "<group>"; };
 		E6A87DF029DA9E5D00910E73 /* menupage1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = menupage1.swift; sourceTree = "<group>"; };
+		E6E221DD29FA41D000636CBE /* pagingmenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pagingmenu.swift; sourceTree = "<group>"; };
+		E6E221DF2A0CBD1800636CBE /* NavigationBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBar.swift; sourceTree = "<group>"; };
+		E6E221E12A0CD58900636CBE /* CustomTabs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabs.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +87,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E63A20E229E6E6F100E8658D /* Button */ = {
+			isa = PBXGroup;
+			children = (
+				E63A20D829E4973000E8658D /* button_3_1.swift */,
+				E63A20DC29E6D8B000E8658D /* button_3_1_yellow.swift */,
+				E63A20D429E1F89500E8658D /* button_2_2.swift */,
+				E63A20D629E493CC00E8658D /* button_1_1.swift */,
+				E63A20DE29E6DF8600E8658D /* add_button_1_1.swift */,
+			);
+			path = Button;
+			sourceTree = "<group>";
+		};
 		E6A87DB629DA967700910E73 = {
 			isa = PBXGroup;
 			children = (
@@ -92,8 +122,13 @@
 			children = (
 				E6A87DC229DA967700910E73 /* kakkaopay_cloneApp.swift */,
 				E6A87DC429DA967700910E73 /* ContentView.swift */,
-				E6A87DEE29DA971200910E73 /* menupage.swift */,
+				E6E221E12A0CD58900636CBE /* CustomTabs.swift */,
 				E6A87DF029DA9E5D00910E73 /* menupage1.swift */,
+				E6E221DD29FA41D000636CBE /* pagingmenu.swift */,
+				E6E221DF2A0CBD1800636CBE /* NavigationBar.swift */,
+				E63A20DA29E516C800E8658D /* menupage2.swift */,
+				E63A20E029E6E5AE00E8658D /* menupage3.swift */,
+				E63A20E229E6E6F100E8658D /* Button */,
 				E6A87DC629DA967900910E73 /* Assets.xcassets */,
 				E6A87DC829DA967900910E73 /* Preview Content */,
 			);
@@ -238,10 +273,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E63A20DB29E516C800E8658D /* menupage2.swift in Sources */,
+				E63A20DF29E6DF8600E8658D /* add_button_1_1.swift in Sources */,
+				E63A20D729E493CC00E8658D /* button_1_1.swift in Sources */,
+				E6E221E22A0CD58900636CBE /* CustomTabs.swift in Sources */,
+				E63A20D929E4973000E8658D /* button_3_1.swift in Sources */,
+				E63A20DD29E6D8B000E8658D /* button_3_1_yellow.swift in Sources */,
 				E6A87DC529DA967700910E73 /* ContentView.swift in Sources */,
+				E63A20D529E1F89500E8658D /* button_2_2.swift in Sources */,
 				E6A87DF129DA9E5D00910E73 /* menupage1.swift in Sources */,
+				E6E221DE29FA41D000636CBE /* pagingmenu.swift in Sources */,
 				E6A87DC329DA967700910E73 /* kakkaopay_cloneApp.swift in Sources */,
-				E6A87DEF29DA971200910E73 /* menupage.swift in Sources */,
+				E63A20E129E6E5AE00E8658D /* menupage3.swift in Sources */,
+				E6E221E02A0CBD1800636CBE /* NavigationBar.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
